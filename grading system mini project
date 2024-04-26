@@ -1,0 +1,12 @@
+print("Welcome to the Grade Calculator!")
+score=int(input("enter the number"))
+if score >= 90:
+  print("The student grade is A+")
+elif score >= 80:
+  print("The student grade is A")
+elif score >= 70:
+    print("The student grade is B+")
+elif score >= 60:
+    print("The student is grade is B")
+else:
+    print("The student garde is c..... but you can be a hero please do not be upset")
