@@ -1,0 +1,14 @@
+print("+ refers addition , - refers subtraction , * refers multiplication , / refers division")
+num1=int(input("enter first number : "))
+num2=int(input("enter second number : "))
+oper=input("enter operator : ")
+if oper=='+':
+    print(num1+num2)
+elif oper=='-':
+    print(num1-num2)
+elif oper=='*':
+    print(num1*num2)
+elif oper=='/':
+    print(num1/num2)
+else:
+    print("invalid operation")
